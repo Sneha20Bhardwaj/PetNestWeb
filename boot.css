@@ -1,0 +1,317 @@
+
+body {
+    padding-top: 79px; /* Adjust this based on the navbar height */
+  }
+.logo{
+    display: inline-block;
+    width:100%;
+    height: 70px;
+    background-color: white;
+    position: static;
+    top: 0px;
+    border-bottom: 10px solid rgba(236, 116, 116, 0.376);
+}
+.logo > img{
+    margin-top:5px;
+    margin-left: 40px;
+}
+.option{
+    display: inline-block;
+    position: absolute;
+    right:40px;
+    top: 10px;
+}
+.but1{
+    display: inline-block;
+    margin-left: 15px;
+}
+.login{
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bolder;
+    color:orange;
+}
+.login:hover{
+    color:white;
+}
+.menu{
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+.menu:hover{
+    color:white;
+}
+.intro{
+    width:100%;
+    text-align: center;
+}
+.siteintro{
+    width:60%;
+    height:180px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.9);
+    position: relative;
+    left: 300px;
+    font-size: 20px;
+    margin: 25px;
+    line-height: 50px;
+}
+h1{
+    font-size: 50px;
+    color: rgb(128, 128, 128);
+    font-size: 50px;
+    margin: 15px;
+}
+.siteintro > a{
+    width:200px;
+    height:auto;
+    background-color: orange;
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 2px;
+    font-weight: bolder;
+}
+.siteintro > a:hover{
+    background-color: white;
+    color:orange;
+    border: 2px solid orange;
+}
+.adoptlogo{
+    margin: 0px 15px;
+}
+.container-fluid > a{
+    color:navy;
+    font-weight: 500;
+    font-size: 21px;
+    margin: 50px 55px;
+
+}
+.content{
+    width:100%;
+    height:600px;
+    /* background-color: black; */
+    text-align: center;
+    margin: 10px;
+}
+.con1 , .con2{
+    margin: 15px 5px;
+    height: 480px;
+    width: 45%;
+    display: inline-block;
+    background-color: white;
+    overflow: hidden;
+}
+.con2{
+    text-align: left;
+    padding:10px;
+    font-size: 18px;
+}
+.work{
+    background-color: rgba(128, 128, 128, 0.29);
+    width:100%;
+    height:250px;
+    text-align: center;
+}
+.work > p{
+    font-size: 50px;
+    margin: 15px;
+    font-weight: 800;
+}
+.work1 , .work2 , .work3{
+    display: inline-block;
+    width:32%;
+    padding:10px;
+    margin: 15px 5px;
+    height:140px;
+    overflow: hidden;
+}
+.pet{
+    margin: 10px;
+    padding: 15px;
+    width:100%;
+    text-align: center;
+}
+.pet1{
+    margin-top: 50px;
+    width:100%;
+    text-align: center;
+}
+.pet2{
+    position:relative;
+    top: -25px;
+    left: 100px;
+    padding: 15px;
+    background-color: whitesmoke;
+    width: 900px;
+    height:160px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.9);
+}
+.foundation{
+    width:100%;
+    height:auto;
+    background-color: orange;
+    text-align: center;
+}
+.found1 , .found2{
+    overflow: hidden;
+   line-height: 25px;
+    display: inline-block;
+    width:40%;
+    height:240px;
+    margin: 25px;
+    color: white;
+}
+h2{
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+}
+.found1{
+    text-align: right;
+}
+.found2{
+    text-align: left;
+    margin-right: 55px;
+}
+.foundation > a{
+    background-color: white;
+    color: rgb(104, 103, 103);
+    text-decoration: none;
+    width:350px;
+    font-size: 20px;
+    height: 300px;
+    padding: 10px 30px;
+    text-align: center;
+    position: relative;
+    right: 430px;
+    bottom: 30px;
+}
+.foundation > a:hover{
+    background-color: rgba(255, 255, 255, 0.791);
+    color: rgb(56, 55, 55);
+}
+.qna{
+    width:100%;
+    height:auto;
+    background-color: rgba(128, 128, 128, 0.269);
+    padding: 20px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.q1{
+    padding: 5px 30px;
+}
+.service{
+    width: 100%;
+    height:auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: white;
+    text-align: center;
+}
+#heading{
+    font-size: 35px;
+    text-align: center;
+    font-weight: bolder;
+    color:rgb(63, 61, 61);
+}
+.s1,.s2,.s3,.s4,.s5,.s6{
+    overflow:hidden;
+    display: inline-block;
+    margin:2px;
+    padding: 10px;
+    width:25%;
+    height:240px;
+    border: 1px solid black;
+    text-align: left;
+}
+.s1:hover,.s2:hover,.s3:hover,.s4:hover,.s5:hover,.s6:hover{
+    border: 3px solid orangered;
+}
+.s1 >a,.s2 >a,.s3 >a,.s4 >a,.s5 >a,.s6 >a{
+    color:orangered;
+    text-decoration: none;
+}
+.convince{
+    width:100%;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+    background-color: gainsboro;
+}
+.conv1{
+    font-size: 45px;
+    font-weight: bolder;
+}
+.conv2{
+    font-size: 25px;
+    line-height: 22px;
+}
+.conv3 , .conv4{
+    display:inline-block;
+    font-size: 20px;
+    width:40%;
+    margin: 15px;
+    height:auto;
+    text-align: justify;
+    /* background-color: aqua; */
+}
+.review , .cities{
+    width: 100%;
+    padding: 5px;
+    margin-top: 15px;
+    background-color: rgba(220, 220, 220, 0.299);
+    text-align: center;
+}
+.rev{
+    display: inline-block;
+    overflow: hidden;
+    width: 15%;
+    height:400px;
+    padding: 5px;
+    margin: 6px;
+    background-color: whitesmoke;
+    text-align: left;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.9);
+}
+.city{
+    display: inline-block;
+    overflow: hidden;
+    width: 10%;
+    height:100px;
+    padding: 5px;
+    margin: 5px;
+    background-color: white;
+}
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: #18273c;
+}
+.fot1{
+    display:inline-block;
+    overflow: hidden;
+    width: 20%;
+    margin: 35px;
+    padding: 10px;
+}
+.fot1 > p{
+    font-size: 30px;
+    color: #979797;
+    font-weight: bolder;
+}
+.fot1 > a{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+.fot1 > a:hover{
+    text-decoration: underline;
+}
+.end{
+    width: 100%;
+    background-color: navy;
+    color: white;
+    padding: 5px 25px;
+}
